@@ -61,6 +61,13 @@ Este projeto consiste em um modelo de portfolio que pode ser usado por desenvolv
 </p>
 <br>
 
+### Página de Erro 404
+<p align="center">
+    <img alt="Imagem da Tela de Erro 404" title="Tela de erro 404" 
+    src=".github/error-404.png" />
+</p>
+<br>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
