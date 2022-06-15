@@ -115,3 +115,8 @@ const sr = ScrollReveal({
 sr.revel(`.home__data`)
 sr.revel(`.home__handle`, {delay: 700})
 sr.revel(`.home__social, .home__scroll`, {delay: 900, origin: 'botoon'})
+
+if (location.protocol !== 'https') {
+    const httpsURL = 'https://' + location.href.split('//')[1]
+    location.replace(httpsURL)
+}
