@@ -1,5 +1,5 @@
 <h1 align="center">
-  Wanderson Timóteo | Portfolio
+  Wanderson A. Timóteo | Desenvolvedor de Software
 </h1>
 
 <div align="center">
@@ -68,6 +68,13 @@ Este projeto consiste em um modelo de portfolio que pode ser usado por desenvolv
 </p>
 <br>
 
+### Página de Erro 404
+<p align="center">
+    <img alt="Gif das funções do portfólio" title="Tela de erro 404" 
+    src=".github/portifolio.gif" />
+</p>
+<br>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
@@ -122,7 +129,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 Feito com ♥ by
 
--  [**Wanderson A. Timóteo**](https://wanderson.tk)
+-  [**Wanderson A. Timóteo**](www.wandersontimoteo.tk)
 
 <br>
 
