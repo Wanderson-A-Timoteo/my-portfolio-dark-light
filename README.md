@@ -129,7 +129,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 Feito com ♥ by
 
--  [**Wanderson A. Timóteo**](www.wandersontimoteo.tk)
+-  [**Wanderson A. Timóteo**](www.wandersontimoteo.ga)
 
 <br>
 
