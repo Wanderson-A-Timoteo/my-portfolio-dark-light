@@ -18,6 +18,7 @@
   --body-color: hsl(var(--second-hue), 48%, 8%);
   --container-color: hsl(var(--second-hue), 32%, 12%);
 
+
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
@@ -30,15 +31,18 @@
   --smaller-font-size: .75rem;
   --tiny-font-size: .625rem;
 
+
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semibold: 600;
+
 
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
 }
+
 
 /* Responsive typography */
 @media screen and (min-width: 968px) {
@@ -52,6 +56,7 @@
     --smaller-font-size: .813rem;
   }
 }
+
 
 /*=============== BASE ===============*/
 * {
@@ -102,6 +107,7 @@ img {
   height: auto;
 }
 
+
 /*=============== THEME ===============*/
 .change-theme {
   font-size: 1.25rem;
@@ -113,6 +119,7 @@ img {
   color: var(--first-color);
 }
 
+
 /*========== Variables Light and Dark theme ==========*/
 body.light-theme {
   --title-color: hsl(var(--second-hue), 15%, 15%);
@@ -120,6 +127,7 @@ body.light-theme {
   --body-color: hsl(var(--second-hue), 100%, 99%);
   --container-color: #fff;
 }
+
 
 /*========== 
     Color changes in some parts of 
@@ -216,6 +224,7 @@ body.light-theme {
   color: var(--text-color-light);
 }
 
+
 /*=============== HEADER & NAV===============*/
 .header {
   position: fixed;
@@ -280,6 +289,7 @@ body.light-theme {
   border-radius: 5rem;
 }
 
+
 /* Active link */
 .active-link {
   background: linear-gradient(180deg,
@@ -290,10 +300,12 @@ body.light-theme {
   color: var(--title-color);
 }
 
+
 /* Change background header */
 .scroll-header {
   box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
 }
+
 
 /*=============== HOME ===============*/
 .home__container {
@@ -339,7 +351,7 @@ body.light-theme {
               hsla(var(--first-hue), var(--sat), var(--lig), 1),
               hsla(var(--first-hue), var(--sat), var(--lig), .2)                
   );
-  border-radius: 10rem 10rem 1rem 1rem;
+  border-radius: 8rem 1rem 8rem 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -438,7 +450,11 @@ body.light-theme {
 
 .about__img {
   width: 220px;
-  border-radius: 1.5rem;
+  background: linear-gradient(180deg,
+              hsla(var(--first-hue), var(--sat), var(--lig), 1),
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)                
+  );
+  border-radius: 1rem 8rem 1rem 8rem;
   justify-self: center;
 }
 
@@ -538,6 +554,7 @@ body.light-theme {
   font-size: var(--tiny-font-size);
 }
 
+
 /*=============== WORK ===============*/
 .work__container {
   padding-top: 1rem;
@@ -576,8 +593,6 @@ body.light-theme {
   margin-bottom: .25rem;
 }
 
-
-
 .work__button {
   color: var(--first-color);
   font-size: var(--small-font-size);
@@ -595,6 +610,7 @@ body.light-theme {
   font-size: 1rem;
   transition: .4s;
 }
+
 
 /* work modal */
 .work__modal {
@@ -678,6 +694,7 @@ body.light-theme {
   align-items: center;
 }
 
+
 /*Active modal*/
 .active-modal {
   opacity: 1;
@@ -700,6 +717,7 @@ body.light-theme {
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
 }
+
 
 /*=============== CONTACT ===============*/
 .contact__container {
@@ -872,6 +890,20 @@ body.light-theme {
   font-size: var(--small-font-size);
 }
 
+.footer__social-link:hover {
+  background-color: var(--first-color);
+  color: var(--body-color);
+  border: 2px solid var(--body-color);
+}
+
+.footer__copy a {
+  color: var(--first-hue);
+}
+
+.footer__copy a:hover {
+  font-weight: var(--font-semibold);
+}
+
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
@@ -888,6 +920,7 @@ body.light-theme {
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(var(--second-hue), 8%, 20%);
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -934,6 +967,7 @@ body.light-theme {
     column-gap: .25rem;
   }
 }
+
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
@@ -994,6 +1028,7 @@ body.light-theme {
   }
 }
 
+
 @media screen and (min-width: 767px) {
   .work__container {
     grid-template-columns: repeat(2, max-content);
@@ -1005,6 +1040,7 @@ body.light-theme {
     column-gap: 3rem;
   }
 }
+
 
 /* For large devices */
 @media screen and (min-width: 992px){
@@ -1105,22 +1141,13 @@ body.light-theme {
     margin-bottom: .5rem;
   }
 
-  .testimonial__container {
-    width: 750px;
-  }
-
-  .testimonial__card {
-    padding: 1.5rem 2rem;
-  }
-
   .contact__container {
     column-gap: 6rem;
   }
 
   .footer__social-link {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: .4rem;
     border-radius: .5rem;
   }
 }
-
